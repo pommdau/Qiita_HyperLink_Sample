@@ -18,12 +18,12 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
-HyperLinkWindowController *hyperLinkWindowController = [[HyperLinkWindowController alloc]
-                                                        initWithMessage:@"1+2+3+4+5+...+10の計算に於いて、エラーが発生しました。"
-                                                                        @"\r\nお手数ですが小学1年生からやり直して下さい。"
-                                                              hyperLink:@"https://sho.jp/sho1/"];
-[hyperLinkWindowController showWindow:self];
-_hyperLinkWindowController = hyperLinkWindowController;
+    HyperLinkWindowController *hyperLinkWindowController = [[HyperLinkWindowController alloc]
+                                                            initWithMessage:@"1+2+3+4+5+...+10の計算に於いて、エラーが発生しました。"
+                                                            @"\r\nお手数ですが小学1年生からやり直して下さい。"
+                                                            hyperLink:@"https://sho.jp/sho1/"];
+    [hyperLinkWindowController showWindow:self];
+    _hyperLinkWindowController = hyperLinkWindowController;
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
