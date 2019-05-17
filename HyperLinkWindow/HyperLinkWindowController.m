@@ -39,23 +39,23 @@
  @brief ラベルを更新する
  */
 - (void)updateLabels {
-// 本文の設定
-[_messageLabel setStringValue:_message];
-// ハイパーリンクの設定
-[_hyperLinkLabel setAllowsEditingTextAttributes: YES];
-[_hyperLinkLabel setSelectable: YES];
-NSMutableAttributedString *attrbutedString = [[NSMutableAttributedString alloc]
-                                              initWithString:_hyperLinkLabel.stringValue
-attributes:@{
-             NSForegroundColorAttributeName:[NSColor blueColor],
-             NSFontAttributeName           :[NSFont  systemFontOfSize:13.0f],
-             NSUnderlineStyleAttributeName :@(NSUnderlineStyleSingle)
-             }
-];
-[attrbutedString addAttribute:NSLinkAttributeName
-                        value:_hyperLink
-                        range:NSMakeRange(0, attrbutedString.length)];
-[_hyperLinkLabel setAttributedStringValue:attrbutedString];
+    // 本文の設定
+    [_messageLabel setStringValue:_message];
+    // ハイパーリンクの設定
+    [_hyperLinkLabel setAllowsEditingTextAttributes: YES];
+    [_hyperLinkLabel setSelectable: YES];
+    NSMutableAttributedString *attrbutedString = [[NSMutableAttributedString alloc]
+                                                  initWithString:_hyperLinkLabel.stringValue
+                                                  attributes:@{
+                                                               NSForegroundColorAttributeName:[NSColor blueColor],
+                                                               NSFontAttributeName           :[NSFont  systemFontOfSize:13.0f],
+                                                               NSUnderlineStyleAttributeName :@(NSUnderlineStyleSingle)
+                                                               }
+                                                  ];
+    [attrbutedString addAttribute:NSLinkAttributeName
+                            value:_hyperLink
+                            range:NSMakeRange(0, attrbutedString.length)];
+    [_hyperLinkLabel setAttributedStringValue:attrbutedString];
 }
 
 
