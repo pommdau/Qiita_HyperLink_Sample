@@ -32,71 +32,16 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <textView ambiguous="YES" drawsBackground="NO" importsGraphics="NO" richText="NO" verticallyResizable="YES" findStyle="bar" spellingCorrection="YES" smartInsertDelete="YES" id="lGd-5n-4kQ" customClass="myTextView">
-                                    <rect key="frame" x="0.0" y="0.0" width="541" height="162"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="541" height="45"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                    <size key="minSize" width="541" height="45"/>
+                                    <size key="minSize" width="541" height="22"/>
                                     <size key="maxSize" width="541" height="10000000"/>
                                     <attributedString key="textStorage">
-                                        <fragment>
-                                            <string key="content">エラーが発生したんやで。
-ほんまやで
-ちゃうねん
-</string>
+                                        <fragment content="エラーが発生したんやで。">
                                             <attributes>
                                                 <font key="NSFont" size="12" name="HiraginoSans-W3"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                        <fragment>
-                                            <string key="content">エラーが発生したんやで。
-ほんまやで
-ちゃうねん
-エラーが発生したんやで。
-ほんまやで
-ちゃうねん</string>
-                                            <attributes>
-                                                <font key="NSFont" size="12" name="HiraginoSans-W3"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                    <tabStops>
-                                                        <textTab alignment="left" location="28">
-                                                            <options/>
-                                                        </textTab>
-                                                        <textTab alignment="left" location="56">
-                                                            <options/>
-                                                        </textTab>
-                                                        <textTab alignment="left" location="84">
-                                                            <options/>
-                                                        </textTab>
-                                                        <textTab alignment="left" location="112">
-                                                            <options/>
-                                                        </textTab>
-                                                        <textTab alignment="left" location="140">
-                                                            <options/>
-                                                        </textTab>
-                                                        <textTab alignment="left" location="168">
-                                                            <options/>
-                                                        </textTab>
-                                                        <textTab alignment="left" location="196">
-                                                            <options/>
-                                                        </textTab>
-                                                        <textTab alignment="left" location="224">
-                                                            <options/>
-                                                        </textTab>
-                                                        <textTab alignment="left" location="252">
-                                                            <options/>
-                                                        </textTab>
-                                                        <textTab alignment="left" location="280">
-                                                            <options/>
-                                                        </textTab>
-                                                        <textTab alignment="left" location="308">
-                                                            <options/>
-                                                        </textTab>
-                                                        <textTab alignment="left" location="336">
-                                                            <options/>
-                                                        </textTab>
-                                                    </tabStops>
-                                                </paragraphStyle>
                                             </attributes>
                                         </fragment>
                                     </attributedString>

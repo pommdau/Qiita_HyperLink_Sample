@@ -7,11 +7,12 @@
 //
 
 #import "TextViewWindowController.h"
+#import "myTextView.h"
 
 @interface TextViewWindowController ()
 @property NSString *message;    // 本文のメッセージ
 @property (weak) IBOutlet NSScrollView *myScrollView;
-@property (unsafe_unretained) IBOutlet NSTextView *myTextView;
+@property (unsafe_unretained) IBOutlet myTextView *myTextView;
 
 @end
 
@@ -37,13 +38,13 @@
 - (void)updateLabels {
     // 本文の設定
     [_myTextView setString:_message];
+    [_myTextView updateScrollViewHeight];
     
-    
-    _myTextView.font = [NSFont systemFontOfSize:[NSFont systemFontSize]];
-//    _myTextView.string = @"Lorem ipsum";
-    
-    [_myTextView.layoutManager ensureLayoutForTextContainer:_myTextView.textContainer];
-    _myTextView.frame = [_myTextView.layoutManager usedRectForTextContainer:_myTextView.textContainer];
+//    _myTextView.font = [NSFont systemFontOfSize:[NSFont systemFontSize]];
+////    _myTextView.string = @"Lorem ipsum";
+//
+//    [_myTextView.layoutManager ensureLayoutForTextContainer:_myTextView.textContainer];
+//    _myTextView.frame = [_myTextView.layoutManager usedRectForTextContainer:_myTextView.textContainer];
     
     
 }
