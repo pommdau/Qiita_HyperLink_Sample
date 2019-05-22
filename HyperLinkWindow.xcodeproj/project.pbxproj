@@ -13,9 +13,6 @@
 		D00DF1AC228E669400BC7A8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D00DF1AB228E669400BC7A8D /* main.m */; };
 		D00DF1B6228E66C600BC7A8D /* HyperLinkWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00DF1B4228E66C600BC7A8D /* HyperLinkWindowController.m */; };
 		D00DF1B7228E66C600BC7A8D /* HyperLinkWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00DF1B5228E66C600BC7A8D /* HyperLinkWindowController.xib */; };
-		D0E6043E229275000073CE3F /* myTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E6043D229275000073CE3F /* myTextView.m */; };
-		D0E66602228E9E6D001CD0D0 /* TextViewWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E66600228E9E6D001CD0D0 /* TextViewWindowController.m */; };
-		D0E66603228E9E6D001CD0D0 /* TextViewWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E66601228E9E6D001CD0D0 /* TextViewWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,11 +27,6 @@
 		D00DF1B3228E66C600BC7A8D /* HyperLinkWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HyperLinkWindowController.h; sourceTree = "<group>"; };
 		D00DF1B4228E66C600BC7A8D /* HyperLinkWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HyperLinkWindowController.m; sourceTree = "<group>"; };
 		D00DF1B5228E66C600BC7A8D /* HyperLinkWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HyperLinkWindowController.xib; sourceTree = "<group>"; };
-		D0E6043C229275000073CE3F /* myTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myTextView.h; sourceTree = "<group>"; };
-		D0E6043D229275000073CE3F /* myTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myTextView.m; sourceTree = "<group>"; };
-		D0E665FF228E9E6D001CD0D0 /* TextViewWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewWindowController.h; sourceTree = "<group>"; };
-		D0E66600228E9E6D001CD0D0 /* TextViewWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewWindowController.m; sourceTree = "<group>"; };
-		D0E66601228E9E6D001CD0D0 /* TextViewWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,11 +66,6 @@
 				D00DF1B3228E66C600BC7A8D /* HyperLinkWindowController.h */,
 				D00DF1B4228E66C600BC7A8D /* HyperLinkWindowController.m */,
 				D00DF1B5228E66C600BC7A8D /* HyperLinkWindowController.xib */,
-				D0E665FF228E9E6D001CD0D0 /* TextViewWindowController.h */,
-				D0E66600228E9E6D001CD0D0 /* TextViewWindowController.m */,
-				D0E66601228E9E6D001CD0D0 /* TextViewWindowController.xib */,
-				D0E6043C229275000073CE3F /* myTextView.h */,
-				D0E6043D229275000073CE3F /* myTextView.m */,
 				D00DF1AA228E669400BC7A8D /* Info.plist */,
 				D00DF1AB228E669400BC7A8D /* main.m */,
 				D00DF1AD228E669400BC7A8D /* HyperLinkWindow.entitlements */,
@@ -144,7 +131,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D00DF1A6228E669400BC7A8D /* Assets.xcassets in Resources */,
-				D0E66603228E9E6D001CD0D0 /* TextViewWindowController.xib in Resources */,
 				D00DF1B7228E66C600BC7A8D /* HyperLinkWindowController.xib in Resources */,
 				D00DF1A9228E669400BC7A8D /* MainMenu.xib in Resources */,
 			);
@@ -158,9 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D00DF1B6228E66C600BC7A8D /* HyperLinkWindowController.m in Sources */,
-				D0E66602228E9E6D001CD0D0 /* TextViewWindowController.m in Sources */,
 				D00DF1AC228E669400BC7A8D /* main.m in Sources */,
-				D0E6043E229275000073CE3F /* myTextView.m in Sources */,
 				D00DF1A4228E669300BC7A8D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
